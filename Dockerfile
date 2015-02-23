@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu:14.04
 MAINTAINER Tristan Carel <tristan@cogniteev.com>
 
 RUN add-apt-repository ppa:adiscon/v8-stable
