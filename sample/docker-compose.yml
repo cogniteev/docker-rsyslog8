@@ -1,0 +1,11 @@
+app1:
+  build: app1
+
+app2:
+  build: app2
+
+rsyslog:
+  image: cogniteev/rsyslog8
+  volumes_from:
+    - app1
+    - app2
