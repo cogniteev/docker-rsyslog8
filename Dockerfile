@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Tristan Carel <tristan@cogniteev.com>
+MAINTAINER Cogniteev <tech@cognitee.com>
 
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:adiscon/v8-stable
