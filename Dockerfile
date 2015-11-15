@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Cogniteev <tech@cognitee.com>
 
-ENV RSYSLOG8_VERSION=8.9.0
+ENV RSYSLOG8_VERSION=8.14.0
 
 RUN apt-get install -y software-properties-common && \
     add-apt-repository ppa:adiscon/v8-stable      && \
