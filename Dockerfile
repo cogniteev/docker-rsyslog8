@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Cogniteev <tech@cognitee.com>
+MAINTAINER Cogniteev <tech@cogniteev.com>
 
 ENV RSYSLOG8_VERSION=8.14.0
 
